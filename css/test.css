@@ -1,0 +1,171 @@
+body {
+    background-image: url(../images/pexels-brazil-topno-1004597.jpg);
+    background-size: cover;
+}
+
+.parent {
+    background-color: transparent;
+    width: 380px;
+    height: 375px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: 2px solid #ddd;
+}
+
+.feat {
+    position: relative;
+}
+
+.feat i {
+    position: absolute;
+    top: -120px;
+    font-size: 40px;
+    left: 146px;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.child {
+    position: relative;
+}
+
+.parent .child {
+    position: absolute;
+    left: 10px;
+    top: 50px;
+}
+
+.child label {
+    position: relative;
+}
+
+.parent .child label {
+    position: absolute;
+    top: -23px;
+}
+
+.child input {
+    width: 100%;
+    border: 0 solid transparent;
+    outline: 0 solid transparent;
+    background-color: transparent;
+}
+
+.child hr {
+    width: 350px;
+}
+
+.child_one {
+    position: relative;
+}
+
+.child_one input {
+    width: 100%;
+    border: 0 solid transparent;
+    outline: 0 solid transparent;
+    background-color: transparent;
+}
+
+.child_one hr {
+    width: 350px;
+}
+
+.parent .child_one {
+    position: absolute;
+    left: 10px;
+    top: 105px;
+}
+
+.child_one label {
+    position: relative;
+}
+
+.parent .child_one label {
+    position: absolute;
+    top: -23px;
+}
+
+.button {
+    position: relative;
+}
+
+.button button {
+    position: absolute;
+    top: 75px;
+    width: 250px;
+    background-color: white;
+    border: 0 solid transparent;
+    padding: 10px;
+    left: 65px;
+}
+
+.button hr {
+    position: absolute;
+    top: 135px;
+    left: 0px;
+    width: 378px;
+    border: none;
+    border-top: 1px double #aaa;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+.button hr:after {
+    background: #fff;
+    content: 'OR';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+    background-color: transparent;
+}
+
+.media {
+    position: relative;
+}
+
+.media .one {
+    position: absolute;
+    background-color: blue;
+    border: 0 solid transparent;
+    color: white;
+    width: 160px;
+    padding: 7px;
+    top: 165px;
+    left: 25px;
+    text-align: center;
+}
+
+.media .two {
+    position: absolute;
+    width: 160px;
+    padding: 7px;
+    top: 165px;
+    right: 25px;
+    text-align: center;
+    background-color: red;
+    border: 0 solid transparent;
+    color: white;
+}
+
+.links {
+    position: relative;
+}
+
+.links p {
+    position: absolute;
+    top: 235px;
+    left: 55px;
+}
+
+.links a {
+    position: absolute;
+    top: 250px;
+    left: 240px;
+}
